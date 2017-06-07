@@ -122,12 +122,12 @@ img {
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $gray;
-  background: $lightGray;
+  color: $white;
+  background: $white;
 }
 ::selection {
-  color: $black;
-  background: $lightGray;
+  color: $white;
+  background: $white;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -156,7 +156,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $white;
 
   @include mobile {
     text-align: center;
